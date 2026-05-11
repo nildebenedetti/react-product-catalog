@@ -27,7 +27,9 @@ function ProductList() {
     }, []);
 
 
-    return <div>ProductList</div>
+    return <div>
+        <ProductCard/>
+    </div>
 
 }
 export default ProductList
