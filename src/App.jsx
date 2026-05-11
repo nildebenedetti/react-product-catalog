@@ -1,8 +1,11 @@
-import HelloClasse154 from "./components/HelloClasse154";
+import ProductList from "./components/ProductList";
+import SearchBar from "./components/SearchBar";
 
 function App() {
-  return (
-    <HelloClasse154 />
-  );
+  return <div className="wrapper">
+    <ProductList>
+      <SearchBar/>
+    </ProductList>
+  </div>
 }
 export default App;
